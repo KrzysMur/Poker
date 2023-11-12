@@ -15,3 +15,7 @@ class Deck:
 
     def take_card_from_deck(self):
         return self.deck.pop()
+
+
+def format_card(card):
+    return card[0] + chr(int(card[1]))
